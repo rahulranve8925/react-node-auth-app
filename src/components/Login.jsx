@@ -12,7 +12,7 @@ function Login() {
         e.preventDefault();
 
         try {
-            const res = await fetch(("http://localhost:5000/login"), {
+            const res = await fetch(("https://react-node-auth-backend-1.onrender.com/login"), {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",
@@ -30,7 +30,6 @@ function Login() {
                 return;
             }
              localStorage.setItem("token", data.token);
-            alert(data.message)
         } catch (error) {
             console.log(error);
             alert("Server Error");
@@ -55,7 +54,7 @@ function Login() {
         <div>
             <div className="container">
                 <div className="login-box">
-                    <h2>Login Hii..!!</h2>
+                    <h2>Login</h2>
                     <form onSubmit={handleSubmit}>
                         <input type="email" placeholder="Enter Email" value={email} onChange={(e) => setEmail(e.target.value)} />
                         <input type="password" placeholder="Enter Password" value={password} onChange={(e) => setPassword(e.target.value)} />

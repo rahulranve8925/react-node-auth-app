@@ -7,7 +7,6 @@ import { HashRouter, Routes, Route } from "react-router-dom";
 function App() {
   return (
     <div className="App">
-      {/* <Login/> */}
       <HashRouter>
         <Routes>
             <Route path="/" element={<Login/>}></Route>

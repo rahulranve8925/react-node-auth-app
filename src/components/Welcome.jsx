@@ -17,7 +17,7 @@ export const Welcome = () => {
             }
 
             try{
-                const res = await fetch("http://localhost:5000/protected",{
+                const res = await fetch("https://react-node-auth-backend-1.onrender.com/protected",{
                      method:"GET",
                      headers:{
                         Authorization: token,
