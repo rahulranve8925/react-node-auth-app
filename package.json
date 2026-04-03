@@ -1,7 +1,8 @@
 {
-  "name": "demo-ai",
+  "name": "react-node-auth-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://rahulranve8925.github.io/react-node-auth-app",
   "dependencies": {
     "@testing-library/dom": "^10.4.1",
     "@testing-library/jest-dom": "^6.9.1",
