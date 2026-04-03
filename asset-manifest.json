@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/react-node-auth-app/static/css/main.813ad7f3.css",
-    "main.js": "/react-node-auth-app/static/js/main.37437411.js",
+    "main.js": "/react-node-auth-app/static/js/main.061628a9.js",
     "static/js/453.25beef65.chunk.js": "/react-node-auth-app/static/js/453.25beef65.chunk.js",
     "static/media/logo.svg": "/react-node-auth-app/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/react-node-auth-app/index.html",
     "main.813ad7f3.css.map": "/react-node-auth-app/static/css/main.813ad7f3.css.map",
-    "main.37437411.js.map": "/react-node-auth-app/static/js/main.37437411.js.map",
+    "main.061628a9.js.map": "/react-node-auth-app/static/js/main.061628a9.js.map",
     "453.25beef65.chunk.js.map": "/react-node-auth-app/static/js/453.25beef65.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.813ad7f3.css",
-    "static/js/main.37437411.js"
+    "static/js/main.061628a9.js"
   ]
 }
